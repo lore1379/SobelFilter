@@ -1,0 +1,13 @@
+﻿  Skipping CUDA source file kernel.cu (excluded from build).
+  Compiling CUDA source file main.cu...
+  
+  C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\x64\Debug\main.cu.obj "C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu" 
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(33): warning #177-D: variable "io_write_gray_img" was declared but never referenced
+  
+  main.cu
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(244): warning C4477: 'printf': con la stringa di formato '%I64u' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 1 è 'LARGE_INTEGER'
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(245): warning C4477: 'printf': con la stringa di formato '%I64u' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 1 è 'LARGE_INTEGER'
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(251): warning C4477: 'printf': con la stringa di formato '%I64u' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 1 è 'LARGE_INTEGER'
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(252): warning C4477: 'printf': con la stringa di formato '%I64u' è necessario un argomento di tipo 'unsigned __int64', ma il tipo dell'argomento variadic 1 è 'LARGE_INTEGER'
+C:\Users\Utente\ParallelComputing\ParallelSobel\ParallelSobel\main.cu(33): warning C4101: 'io_write_gray_img': variabile locale senza riferimenti
+  ParallelSobel.vcxproj -> C:\Users\Utente\ParallelComputing\ParallelSobel\x64\Debug\ParallelSobel.exe

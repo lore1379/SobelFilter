@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParallelSobel", "ParallelSobel\ParallelSobel.vcxproj", "{66993006-0C09-4EEE-AA3F-D1B0E3B4A118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66993006-0C09-4EEE-AA3F-D1B0E3B4A118}.Debug|x64.ActiveCfg = Debug|x64
+		{66993006-0C09-4EEE-AA3F-D1B0E3B4A118}.Debug|x64.Build.0 = Debug|x64
+		{66993006-0C09-4EEE-AA3F-D1B0E3B4A118}.Release|x64.ActiveCfg = Release|x64
+		{66993006-0C09-4EEE-AA3F-D1B0E3B4A118}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35AB2973-3C06-42B1-9E82-AC4DC734E0FA}
+	EndGlobalSection
+EndGlobal
