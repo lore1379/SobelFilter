@@ -4,6 +4,6 @@ Final assignment for the Parallel Computing course. It compares a sequential app
 
 Detailed explaination of the project can be found [here](Report.pdf).
 
-The present implementations work with PNG, JPG and BMP input images who can be stored in imgs_in folder. Results will be found in imgs_out folder.
+The present implementations work with PNG, JPG and BMP input images which can be stored in imgs_in folder. Results will be found in imgs_out folder.
 
 In order to run the CUDA version, make sure you have a CUDA-compatible GPU and its corresponding CUDA drivers, as well as the nvidia-cuda-toolkit to compile CUDA programs.
